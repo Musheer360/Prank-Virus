@@ -1,7 +1,7 @@
 MsgBox "Fatal Exception at 0E: Access is Denied!" , 0+16 , "Error"
 
 Do
-	response = MsgBox("wanna make it ra1n?",4096+4+32,"ch3ckm8")
+	response = MsgBox("wanna play ch3ss?",4096+4+32,"ch3ckm8")
 	Loop While response <> vbYes
 
 response = MsgBox("Encrypting system files... (0% Complete)" & vbNewLine & "" & vbNewLine & "Do you want to cancel the operation?", 4096+4+48, "ch3ckm8")
@@ -13,10 +13,10 @@ If response = vbNo Then
 	x = 0
 	percentno = 0
 	Do While x < 4
-	x = x + 1
-	percentno = percentno + 24
-	WScript.Sleep 800
-	MsgBox "Unable to cancel the operation!" & vbNewLine & "" & vbNewLine & "Encrypting system files... (" & percentno & "% Complete)", 4096+2+16,"ch3ckm8"
+		x = x + 1
+		percentno = percentno + 24
+		WScript.Sleep 800
+		MsgBox "Unable to cancel the operation!" & vbNewLine & "" & vbNewLine & "Encrypting system files... (" & percentno & "% Complete)", 4096+2+16,"ch3ckm8"
 	Loop
 	
 
@@ -26,10 +26,10 @@ ElseIf response = vbYes Then
 	y = 0
 	percent = 0
 	Do While y < 4
-	y = y + 1
-	percent = percent + 24
-	WScript.Sleep 800
-	MsgBox "Unable to cancel the operation!" & vbNewLine & "" & vbNewLine & "Encrypting system files... (" & percent & "% Complete)", 4096+2+16,"ch3ckm8"
+		y = y + 1
+		percent = percent + 24
+		WScript.Sleep 800
+		MsgBox "Unable to cancel the operation!" & vbNewLine & "" & vbNewLine & "Encrypting system files... (" & percent & "% Complete)", 4096+2+16,"ch3ckm8"
 	Loop
 End If
 
